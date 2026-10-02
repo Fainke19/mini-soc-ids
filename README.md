@@ -17,19 +17,24 @@ A cybersecurity project that combines a custom Python intrusion detection system
 
 ## Architecture
 
+```text
 Mac / Test Traffic
         |
         v
-Ubuntu VM
-   |         |
+    Ubuntu VM
+     /     \
+    v       v
 Python IDS  Suricata
-   |         |
- JSONL     eve.json
-    \         /
-     \       /
-    Flask Dashboard
+    |          |
+    v          v
+  JSONL     eve.json
+     \        /
+      v      v
+   Flask Dashboard
          |
-     SOC Alert View
+         v
+    SOC Alert View
+```
 
 ## Technologies
 
