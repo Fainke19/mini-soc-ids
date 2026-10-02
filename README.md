@@ -46,7 +46,8 @@ Python IDS  Suricata
 Install the Python dependencies:
 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 Suricata must also be installed separately on the Linux system.
 
