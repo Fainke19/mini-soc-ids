@@ -1,7 +1,8 @@
 # Mini SOC IDS Dashboard
 
 A cybersecurity project that combines a custom Python intrusion detection system with Suricata and a Flask-based SOC dashboard.
-
+## Dashboard
+![Mini SOC IDS Dashboard](dashboard.png)
 ## Features
 
 - Network traffic monitoring with Scapy
